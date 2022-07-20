@@ -1,0 +1,34 @@
+{
+	"map_name": "Corporate-Class Nanotrasen Oversight Vessel",
+	"map_short_name": "Corporate-class",
+	"map_path": "_maps/shuttles/shiptest/nanotrasen_corp.dmm",
+	"limit": 1,
+	"job_slots": {
+		"Chief Executive Officer": {
+			"outfit": "/datum/outfit/job/captain/corporate",
+			"officer": true,
+			"slots": 1
+		},
+		"Chief Supply Officer": {
+			"outfit": "/datum/outfit/job/quartermaster/supplychief",
+			"officer": true,
+			"slots": 1
+		},
+		"Elite Nanotrasen Security": {
+			"outfit": "/datum/outfit/job/security/corporate",
+			"officer": false,
+			"slots": 2
+		},
+		"Contracted Engineer": {
+			"outfit": "/datum/outfit/job/engineer/corporate",
+			"officer": false,
+			"slots": 2
+		},
+		"Business Associate": {
+			"outfit": "/datum/outfit/job/assistant/corporate",
+			"officer": false,
+			"slots": 4
+		}
+	},
+	"cost": 2200
+}

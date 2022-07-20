@@ -59,6 +59,14 @@
 	light_color = COLOR_VERY_LIGHT_GRAY
 	smooth_icon = 'icons/turf/floors/junglegrass.dmi'
 
+/turf/open/floor/plating/grass/jungle/nolight
+	light_range = 0
+	light_power = 1
+	light_color = COLOR_WHITE
+/turf/open/floor/plating/grass/jungle/nolight/imported
+	name = "imported jungle grass"
+	desc = "This grass appears to have been imported and replanted"
+
 /turf/closed/mineral/random/jungle
 	turf_type = /turf/open/floor/plating/grass/jungle
 	baseturfs = /turf/open/floor/plating/grass/jungle
