@@ -290,6 +290,12 @@
 	item_state = "tile-carpet-orange"
 	turf_type = /turf/open/floor/carpet/donk
 
+/obj/item/stack/tile/carpet/nanotrasen
+	name = "nanotrasen carpet"
+	icon_state = "tile_carpet_nanotrasen"
+	item_state = "tile-carpet-blue"
+	turf_type = /turf/open/floor/carpet/donk
+
 /obj/item/stack/tile/carpet/nanoweave
 	name = "nanoweave carpet"
 	icon = 'whitesands/icons/obj/tiles.dmi'

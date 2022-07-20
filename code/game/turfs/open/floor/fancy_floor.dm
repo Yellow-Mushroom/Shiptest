@@ -351,6 +351,15 @@
 	smoothing_groups = list(SMOOTH_GROUP_TURF_OPEN, SMOOTH_GROUP_CARPET_DONK)
 	canSmoothWith = list(SMOOTH_GROUP_CARPET_DONK)
 
+/turf/open/floor/carpet/nanotrasen
+	name = "Nanotrasen carpet"
+	icon = 'icons/turf/floors/carpet_nanotrasen.dmi'
+	icon_state = "carpet_nanotrasen-255"
+	base_icon_state = "carpet_nanotrasen"
+	floor_tile = /obj/item/stack/tile/carpet/nanotrasen
+	smoothing_groups = list(SMOOTH_GROUP_TURF_OPEN, SMOOTH_GROUP_CARPET_NANOTRASEN)
+	canSmoothWith = list(SMOOTH_GROUP_CARPET_NANOTRASEN)
+
 /turf/open/floor/carpet/nanoweave
 	name = "nanoweave carpet"
 	desc = "A padded piece of plasteel plating, used to make space-based installations a feel little less soulless."
