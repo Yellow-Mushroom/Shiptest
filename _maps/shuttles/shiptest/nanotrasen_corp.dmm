@@ -151,9 +151,6 @@
 "dz" = (
 /turf/closed/wall/mineral/titanium,
 /area/ship/crew/dorm/dormtwo)
-"dD" = (
-/turf/open/floor/plating/rust,
-/area/ship/maintenance/port)
 "dL" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -164,6 +161,9 @@
 /obj/structure/window/reinforced/survival_pod,
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
+"dU" = (
+/turf/open/floor/plating/rust,
+/area/ship/maintenance/port)
 "ee" = (
 /obj/structure/flora/ausbushes/grassybush,
 /obj/structure/spacevine{
@@ -183,6 +183,10 @@
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/plating/grass/jungle/nolight/imported,
 /area/ship/crew/hydroponics)
+"eo" = (
+/obj/structure/dresser,
+/turf/open/floor/wood/walnut,
+/area/ship/crew/dorm)
 "ex" = (
 /turf/open/floor/plasteel/stairs/right,
 /area/ship/hallway/port)
@@ -211,6 +215,11 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
+/area/ship/engineering)
+"eK" = (
+/obj/structure/window/plasma/reinforced/spawner,
+/obj/effect/turf_decal/techfloor/orange,
+/turf/open/floor/engine/plasma,
 /area/ship/engineering)
 "eT" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
@@ -291,9 +300,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/ship/crew/canteen)
-"fU" = (
-/turf/open/floor/wood/walnut,
-/area/ship/crew/dorm)
 "fZ" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/spacevine{
@@ -310,10 +316,6 @@
 /obj/structure/catwalk,
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/cargo/office)
-"gp" = (
-/obj/machinery/recharge_station,
-/turf/open/floor/plating,
-/area/ship/engineering)
 "gD" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -340,6 +342,10 @@
 /obj/machinery/vending/boozeomat/all_access,
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/crew/canteen)
+"gT" = (
+/obj/machinery/washing_machine,
+/turf/open/floor/plating,
+/area/ship/engineering)
 "gU" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/plating/grass/jungle/nolight/imported,
@@ -431,6 +437,13 @@
 "hY" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/engineering/communications)
+"ia" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 5
+	},
+/obj/machinery/computer/telecomms/server,
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/engineering/communications)
 "id" = (
 /obj/machinery/atmospherics/components/unary/shuttle/heater{
 	dir = 1
@@ -490,6 +503,13 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/hallway/starboard)
+"iD" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 1
+	},
+/obj/machinery/computer/telecomms/monitor,
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/engineering/communications)
 "iF" = (
 /obj/machinery/atmospherics/components/unary/shuttle/heater{
 	dir = 1
@@ -564,10 +584,8 @@
 /turf/open/floor/plating,
 /area/ship/crew/dorm/dormthree)
 "jD" = (
-/obj/structure/flora/ausbushes/ywflowers,
-/obj/structure/flora/ausbushes/fullgrass,
-/turf/open/floor/plating/grass/jungle/nolight/imported,
-/area/ship/hallway/central)
+/turf/open/floor/plating/rust,
+/area/ship/engineering)
 "ka" = (
 /turf/open/floor/plasteel/rockvault,
 /area/ship/storage)
@@ -638,6 +656,10 @@
 /obj/structure/spacevine,
 /turf/open/floor/plating/grass/jungle/nolight/imported,
 /area/ship/crew/hydroponics)
+"lj" = (
+/obj/machinery/door/airlock/external,
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/engineering/communications)
 "lm" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 1
@@ -812,6 +834,9 @@
 	},
 /turf/open/floor/plasteel/rockvault,
 /area/ship/storage)
+"oc" = (
+/turf/open/floor/wood/walnut,
+/area/ship/engineering/communications)
 "oh" = (
 /obj/structure/window/reinforced/survival_pod{
 	dir = 4
@@ -844,16 +869,12 @@
 	},
 /turf/open/floor/plating/grass/jungle/nolight/imported,
 /area/ship/crew/hydroponics)
-"oR" = (
-/obj/structure/flora/ausbushes/fullgrass,
-/turf/open/floor/plating/grass/jungle/nolight/imported,
-/area/ship/hallway/central)
 "oS" = (
+/obj/machinery/atmospherics/pipe/simple/purple/visible{
+	dir = 8
+	},
 /turf/open/floor/plating/rust,
 /area/ship/engineering)
-"pe" = (
-/turf/open/floor/plasteel/tech/grid,
-/area/ship/engineering/communications)
 "pi" = (
 /obj/effect/turf_decal/corner/nanotrasen{
 	dir = 6
@@ -901,6 +922,15 @@
 /obj/effect/spawner/structure/window/shuttle,
 /turf/open/floor/plating,
 /area/ship/hallway/starboard)
+"qa" = (
+/obj/machinery/telecomms/broadcaster/preset_left/birdstation{
+	autolinkers = list("broadcasterA","common")
+	},
+/obj/effect/turf_decal/techfloor{
+	dir = 6
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/engineering/communications)
 "qc" = (
 /obj/machinery/door/airlock/external,
 /turf/open/floor/plasteel/patterned/ridged{
@@ -976,6 +1006,10 @@
 /obj/effect/turf_decal/corner/nanotrasen/three_quarters,
 /turf/open/floor/plasteel/dark,
 /area/ship/hallway/starboard)
+"rB" = (
+/obj/item/kirbyplants/random,
+/turf/open/floor/wood/walnut,
+/area/ship/crew/dorm)
 "rC" = (
 /turf/open/floor/wood/mahogany,
 /area/ship/crew/canteen)
@@ -1047,12 +1081,6 @@
 /obj/structure/catwalk/over/plated_catwalk/white,
 /turf/open/floor/plating,
 /area/ship/maintenance)
-"sp" = (
-/obj/structure/closet/wall{
-	pixel_y = 28
-	},
-/turf/open/floor/carpet/nanotrasen,
-/area/ship/crew/dorm)
 "sx" = (
 /obj/item/kirbyplants/random,
 /obj/effect/turf_decal/trimline/white/line{
@@ -1105,6 +1133,11 @@
 "tr" = (
 /turf/open/floor/engine/air,
 /area/ship/engineering)
+"tu" = (
+/obj/machinery/telecomms/receiver,
+/obj/effect/turf_decal/techfloor,
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/engineering/communications)
 "ty" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/machinery/door/poddoor,
@@ -1280,6 +1313,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/hallway/central)
+"xt" = (
+/obj/machinery/fat_sucker,
+/turf/open/floor/wood/walnut,
+/area/ship/engineering/communications)
 "xC" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/crew/toilet)
@@ -1387,10 +1424,6 @@
 	},
 /turf/open/floor/plating/grass/jungle/nolight/imported,
 /area/ship/crew/hydroponics)
-"zl" = (
-/obj/machinery/washing_machine,
-/turf/open/floor/plating,
-/area/ship/engineering)
 "zq" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/engineering/atmospherics)
@@ -1444,6 +1477,13 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/hallway/central)
+"AF" = (
+/obj/machinery/telecomms/server/presets/common,
+/obj/effect/turf_decal/techfloor{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/engineering/communications)
 "AG" = (
 /obj/effect/turf_decal/siding/brown,
 /obj/machinery/door/airlock/wood/glass{
@@ -1534,6 +1574,10 @@
 "BE" = (
 /turf/closed/wall/mineral/titanium,
 /area/ship/security)
+"BG" = (
+/obj/machinery/recharge_station,
+/turf/open/floor/plating,
+/area/ship/engineering)
 "BU" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/crew/dorm/dormthree)
@@ -1554,6 +1598,18 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/hallway/central)
+"Ca" = (
+/obj/structure/closet/wall{
+	pixel_y = 28
+	},
+/turf/open/floor/carpet/nanotrasen,
+/area/ship/crew/dorm)
+"Cf" = (
+/obj/machinery/cryopod{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/crew/dorm)
 "Cn" = (
 /obj/effect/turf_decal/corner/white/diagonal,
 /obj/structure/table/wood/bar,
@@ -1774,10 +1830,6 @@
 /obj/machinery/door/window/survival_pod,
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
-"FB" = (
-/obj/structure/dresser,
-/turf/open/floor/wood/walnut,
-/area/ship/crew/dorm)
 "FG" = (
 /obj/machinery/atmospherics/pipe/simple/purple/hidden{
 	dir = 4
@@ -1903,8 +1955,9 @@
 	},
 /area/ship/cargo)
 "HE" = (
-/turf/open/floor/wood/walnut,
-/area/ship/engineering/communications)
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/open/floor/plating/grass/jungle/nolight/imported,
+/area/ship/hallway/central)
 "HR" = (
 /obj/structure/table/wood/fancy/black,
 /obj/item/paper{
@@ -2081,10 +2134,6 @@
 /obj/structure/flora/junglebush/large,
 /turf/open/floor/plating/grass/jungle/nolight/imported,
 /area/ship/crew/hydroponics)
-"KB" = (
-/obj/machinery/door/airlock/external,
-/turf/open/floor/plasteel/tech/grid,
-/area/ship/engineering/communications)
 "KK" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/brflowers,
@@ -2178,6 +2227,22 @@
 	},
 /turf/open/floor/carpet/purple,
 /area/ship/crew/canteen)
+"Mk" = (
+/obj/machinery/holopad/emergency,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood/end{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ship/engineering/communications)
 "Mt" = (
 /obj/structure/flora/ausbushes/stalkybush,
 /turf/open/floor/plating/grass/jungle/nolight/imported,
@@ -2375,10 +2440,6 @@
 /obj/structure/table/wood/reinforced,
 /turf/open/floor/carpet/executive,
 /area/ship/crew/dorm/dormtwo)
-"PO" = (
-/obj/machinery/fat_sucker,
-/turf/open/floor/wood/walnut,
-/area/ship/engineering/communications)
 "PQ" = (
 /obj/structure/window/plasma/reinforced/spawner/west,
 /turf/open/floor/engine/air,
@@ -2403,12 +2464,6 @@
 "Qf" = (
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/ship/hallway/port)
-"Qj" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
-/turf/open/floor/plasteel/tech/grid,
-/area/ship/crew/dorm)
 "Ql" = (
 /obj/structure/window/plasma/reinforced/spawner,
 /turf/open/floor/engine/air,
@@ -2518,6 +2573,13 @@
 /obj/structure/window/plasma/reinforced/spawner,
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
+"Sg" = (
+/obj/machinery/telecomms/processor,
+/obj/effect/turf_decal/techfloor{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/engineering/communications)
 "Sl" = (
 /turf/closed/wall/mineral/titanium,
 /area/ship/crew/dorm/dormthree)
@@ -2606,6 +2668,13 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/plating/grass/jungle/nolight/imported,
 /area/ship/hallway/starboard)
+"TL" = (
+/obj/machinery/telecomms/bus,
+/obj/effect/turf_decal/techfloor{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/engineering/communications)
 "TN" = (
 /obj/effect/spawner/structure/window/shuttle,
 /turf/open/floor/plating,
@@ -2802,12 +2871,6 @@
 "WM" = (
 /obj/effect/turf_decal/atmos/plasma,
 /turf/open/floor/engine/plasma,
-/area/ship/engineering)
-"WO" = (
-/obj/machinery/atmospherics/pipe/simple/purple/visible{
-	dir = 8
-	},
-/turf/open/floor/plating/rust,
 /area/ship/engineering)
 "WP" = (
 /turf/closed/wall/mineral/titanium,
@@ -3674,7 +3737,7 @@ mn
 ZI
 vP
 VV
-dD
+dU
 VV
 zq
 nX
@@ -3867,7 +3930,7 @@ uR
 uR
 uR
 rI
-oS
+jD
 zq
 zq
 kv
@@ -4006,7 +4069,7 @@ gU
 OE
 Wr
 uR
-fw
+ka
 ka
 lb
 Ia
@@ -4060,9 +4123,9 @@ nn
 Rb
 uR
 uR
-gp
+BG
 rI
-oS
+jD
 rI
 eJ
 TV
@@ -4108,10 +4171,10 @@ bg
 Kb
 uR
 uR
-zl
+gT
 rI
 rI
-oS
+jD
 Xp
 iF
 Yf
@@ -4156,7 +4219,7 @@ ra
 uR
 uR
 uR
-gp
+BG
 rI
 rI
 rI
@@ -4194,9 +4257,9 @@ XI
 BV
 hY
 hY
-pe
-pe
-pe
+Sg
+AF
+TL
 uR
 uR
 uR
@@ -4206,7 +4269,7 @@ uR
 hR
 rI
 rI
-oS
+jD
 rI
 Xp
 IG
@@ -4240,8 +4303,8 @@ SU
 NI
 Is
 Jv
-si
-hY
+HE
+lj
 cC
 cC
 cC
@@ -4288,15 +4351,15 @@ UM
 NI
 hJ
 xs
-oR
-KB
+si
+hY
+iD
 cC
-cC
-cC
+tu
 Yk
 np
-Qj
-Qj
+Cf
+Cf
 Yk
 We
 hR
@@ -4338,20 +4401,20 @@ AA
 Jv
 Og
 hY
+ia
 cC
-cC
-cC
+qa
 Yk
-sp
+Ca
 OV
 OV
 Yk
 We
-hR
+eK
+rI
+jD
 rI
 oS
-rI
-WO
 TV
 fJ
 fJ
@@ -4384,19 +4447,19 @@ NI
 CA
 ux
 Dp
-jD
+si
 hY
 hY
 hY
 hY
 Yk
-sp
+Ca
 OV
 YY
 Yk
 PQ
 US
-oS
+jD
 rI
 rI
 eJ
@@ -4434,11 +4497,11 @@ AP
 kX
 SB
 hY
-HE
-HE
-PO
+oc
+Mk
+xt
 Yk
-FB
+eo
 OV
 YY
 Yk
@@ -4482,11 +4545,11 @@ AP
 kX
 Sv
 hY
-HE
-HE
-HE
+oc
+oc
+oc
 Yk
-fU
+rB
 OV
 YY
 Yk
@@ -4494,7 +4557,7 @@ WR
 Ql
 rI
 rI
-oS
+jD
 Xp
 IQ
 Yf
@@ -4541,7 +4604,7 @@ Yk
 tN
 tN
 rI
-oS
+jD
 rI
 sl
 IG
@@ -4587,7 +4650,7 @@ kF
 kF
 wI
 rI
-oS
+jD
 rI
 rI
 TV
