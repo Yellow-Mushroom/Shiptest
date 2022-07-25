@@ -9,6 +9,7 @@
 /area/ship/hallway/starboard)
 "aE" = (
 /obj/machinery/atmospherics/pipe/manifold4w/purple/visible,
+/obj/structure/catwalk/over,
 /turf/open/floor/plating,
 /area/ship/engineering)
 "aH" = (
@@ -77,6 +78,7 @@
 /obj/effect/turf_decal/floordetail/edgedrain{
 	dir = 1
 	},
+/obj/structure/closet/emcloset/anchored,
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/maintenance/central)
 "cO" = (
@@ -159,7 +161,11 @@
 "dN" = (
 /obj/machinery/portable_atmospherics/canister/toxins,
 /obj/structure/window/reinforced/survival_pod,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/corner/purple/diagonal{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner/pink/diagonal,
+/turf/open/floor/plasteel/vaporwave,
 /area/ship/engineering/atmospherics)
 "dU" = (
 /turf/open/floor/plating/rust,
@@ -214,13 +220,13 @@
 /obj/machinery/atmospherics/pipe/simple/purple/visible{
 	dir = 8
 	},
+/obj/structure/catwalk/over,
 /turf/open/floor/plating,
 /area/ship/engineering)
 "eK" = (
-/obj/structure/window/plasma/reinforced/spawner,
-/obj/effect/turf_decal/techfloor/orange,
-/turf/open/floor/engine/plasma,
-/area/ship/engineering)
+/obj/effect/turf_decal/techfloor,
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ship/engineering/communications)
 "eT" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 4
@@ -290,6 +296,7 @@
 /obj/machinery/atmospherics/pipe/simple/purple/visible{
 	dir = 1
 	},
+/obj/structure/catwalk/over,
 /turf/open/floor/plating,
 /area/ship/engineering)
 "fQ" = (
@@ -300,6 +307,11 @@
 	},
 /turf/open/floor/plasteel,
 /area/ship/crew/canteen)
+"fR" = (
+/obj/structure/railing,
+/obj/structure/catwalk/over/plated_catwalk/white,
+/turf/open/floor/plating/rust,
+/area/ship/maintenance/port)
 "fZ" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/spacevine{
@@ -485,6 +497,7 @@
 /obj/machinery/atmospherics/pipe/simple/purple/visible{
 	dir = 1
 	},
+/obj/structure/catwalk/over,
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "it" = (
@@ -544,6 +557,7 @@
 /obj/machinery/atmospherics/pipe/manifold/purple/visible{
 	dir = 1
 	},
+/obj/structure/catwalk/over,
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "jb" = (
@@ -554,7 +568,6 @@
 	dir = 8
 	},
 /obj/structure/catwalk/over/plated_catwalk/white,
-/obj/structure/railing,
 /turf/open/floor/plating/rust,
 /area/ship/maintenance/central)
 "ji" = (
@@ -601,6 +614,7 @@
 /obj/structure/window/reinforced/survival_pod{
 	dir = 8
 	},
+/obj/structure/catwalk/over,
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "kF" = (
@@ -780,6 +794,13 @@
 	},
 /turf/open/floor/carpet/black,
 /area/ship/crew/law_office)
+"mQ" = (
+/obj/effect/turf_decal/floordetail/edgedrain{
+	dir = 1
+	},
+/obj/structure/closet/emcloset/anchored,
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/maintenance/port)
 "mX" = (
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/effect/turf_decal/siding/brown{
@@ -873,6 +894,7 @@
 /obj/machinery/atmospherics/pipe/simple/purple/visible{
 	dir = 8
 	},
+/obj/structure/catwalk/over,
 /turf/open/floor/plating/rust,
 /area/ship/engineering)
 "pi" = (
@@ -929,7 +951,7 @@
 /obj/effect/turf_decal/techfloor{
 	dir = 6
 	},
-/turf/open/floor/plasteel/tech/grid,
+/turf/open/floor/plasteel/telecomms_floor,
 /area/ship/engineering/communications)
 "qc" = (
 /obj/machinery/door/airlock/external,
@@ -977,6 +999,7 @@
 /obj/machinery/atmospherics/pipe/manifold/purple/visible{
 	dir = 4
 	},
+/obj/structure/catwalk/over,
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "ra" = (
@@ -1058,6 +1081,7 @@
 /obj/machinery/atmospherics/pipe/simple/purple/visible{
 	dir = 10
 	},
+/obj/structure/catwalk/over,
 /turf/open/floor/plating,
 /area/ship/engineering)
 "so" = (
@@ -1136,7 +1160,7 @@
 "tu" = (
 /obj/machinery/telecomms/receiver,
 /obj/effect/turf_decal/techfloor,
-/turf/open/floor/plasteel/tech/grid,
+/turf/open/floor/plasteel/telecomms_floor,
 /area/ship/engineering/communications)
 "ty" = (
 /obj/effect/spawner/structure/window/shuttle,
@@ -1214,6 +1238,7 @@
 	dir = 5
 	},
 /obj/structure/reagent_dispensers/fueltank,
+/obj/structure/catwalk/over,
 /turf/open/floor/plating,
 /area/ship/engineering)
 "vz" = (
@@ -1269,6 +1294,11 @@
 /obj/effect/turf_decal/siding/yellow,
 /turf/open/floor/carpet/black,
 /area/ship/bridge)
+"wH" = (
+/obj/machinery/door/airlock/external,
+/obj/structure/catwalk/over/plated_catwalk/white,
+/turf/open/floor/plating,
+/area/ship/maintenance/port)
 "wI" = (
 /obj/machinery/door/airlock/external,
 /turf/open/floor/plating,
@@ -1351,6 +1381,7 @@
 /obj/machinery/atmospherics/pipe/simple/purple/visible{
 	dir = 9
 	},
+/obj/structure/catwalk/over,
 /turf/open/floor/plating,
 /area/ship/engineering)
 "yh" = (
@@ -1638,6 +1669,9 @@
 	color = "#4c535b"
 	},
 /area/ship/maintenance/central)
+"Cq" = (
+/turf/open/floor/plasteel/stairs,
+/area/ship/maintenance/central)
 "Cu" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden/layer2{
 	dir = 4
@@ -1746,6 +1780,7 @@
 /obj/machinery/atmospherics/pipe/simple/purple/visible{
 	dir = 6
 	},
+/obj/structure/catwalk/over,
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "DF" = (
@@ -1828,7 +1863,11 @@
 "Fv" = (
 /obj/machinery/portable_atmospherics/canister/toxins,
 /obj/machinery/door/window/survival_pod,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/corner/purple/diagonal{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner/pink/diagonal,
+/turf/open/floor/plasteel/vaporwave,
 /area/ship/engineering/atmospherics)
 "FG" = (
 /obj/machinery/atmospherics/pipe/simple/purple/hidden{
@@ -1970,6 +2009,12 @@
 	},
 /turf/open/floor/carpet/black,
 /area/ship/crew/law_office)
+"HZ" = (
+/obj/effect/turf_decal/techfloor{
+	dir = 4
+	},
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ship/engineering/communications)
 "Ia" = (
 /obj/structure/bed,
 /obj/item/stack/spacecash/c1000{
@@ -2118,6 +2163,7 @@
 /obj/machinery/atmospherics/pipe/simple/purple/visible{
 	dir = 8
 	},
+/obj/structure/catwalk/over,
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "Kk" = (
@@ -2362,12 +2408,14 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/hallway/central)
 "Ob" = (
-/obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/spacevine{
-	pixel_y = -32
+/obj/effect/turf_decal/techfloor/corner{
+	dir = 4
 	},
-/turf/open/floor/plating/grass/jungle/nolight/imported,
-/area/ship/crew/hydroponics)
+/obj/effect/turf_decal/techfloor/corner{
+	dir = 1
+	},
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ship/engineering/communications)
 "Oe" = (
 /obj/structure/chair/sofa/right{
 	dir = 1
@@ -2405,7 +2453,11 @@
 /area/ship/crew/dorm)
 "Pc" = (
 /obj/machinery/portable_atmospherics/canister/toxins,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/corner/purple/diagonal{
+	dir = 4
+	},
+/obj/effect/turf_decal/corner/pink/diagonal,
+/turf/open/floor/plasteel/vaporwave,
 /area/ship/engineering/atmospherics)
 "Pd" = (
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -2444,6 +2496,9 @@
 /obj/structure/window/plasma/reinforced/spawner/west,
 /turf/open/floor/engine/air,
 /area/ship/engineering)
+"PR" = (
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/maintenance/central)
 "PS" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 1
@@ -2530,12 +2585,16 @@
 /obj/machinery/atmospherics/pipe/simple/purple/visible{
 	dir = 6
 	},
+/obj/structure/catwalk/over,
 /turf/open/floor/plating,
 /area/ship/engineering)
 "Ri" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/plating/grass/jungle/nolight/imported,
 /area/ship/cargo/office)
+"Rl" = (
+/turf/open/floor/plasteel/stairs,
+/area/ship/maintenance/port)
 "Rp" = (
 /turf/open/floor/engine,
 /area/ship/cargo)
@@ -2576,7 +2635,7 @@
 "Sg" = (
 /obj/machinery/telecomms/processor,
 /obj/effect/turf_decal/techfloor{
-	dir = 8
+	dir = 9
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/engineering/communications)
@@ -2671,7 +2730,7 @@
 "TL" = (
 /obj/machinery/telecomms/bus,
 /obj/effect/turf_decal/techfloor{
-	dir = 8
+	dir = 10
 	},
 /turf/open/floor/plasteel/tech/grid,
 /area/ship/engineering/communications)
@@ -2756,6 +2815,9 @@
 	},
 /turf/open/floor/carpet/black,
 /area/ship/crew/law_office)
+"UE" = (
+/turf/open/floor/plasteel/tech/grid,
+/area/ship/maintenance/port)
 "UM" = (
 /obj/effect/turf_decal/corner/white/diagonal,
 /obj/machinery/processor,
@@ -2841,6 +2903,7 @@
 /turf/open/floor/plasteel/white,
 /area/ship/security/armory)
 "VV" = (
+/obj/structure/catwalk/over/plated_catwalk/white,
 /turf/open/floor/plating,
 /area/ship/maintenance/port)
 "VY" = (
@@ -2913,6 +2976,7 @@
 /obj/machinery/atmospherics/pipe/manifold/purple/visible{
 	dir = 1
 	},
+/obj/structure/catwalk/over,
 /turf/open/floor/plating,
 /area/ship/engineering)
 "Xq" = (
@@ -3099,16 +3163,9 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/hallway/port)
 "ZI" = (
-/obj/structure/flora/ausbushes/sparsegrass,
-/obj/structure/flora/ausbushes/lavendergrass,
-/obj/structure/spacevine{
-	pixel_x = -32
-	},
-/obj/structure/spacevine{
-	pixel_y = -32
-	},
-/turf/open/floor/plating/grass/jungle/nolight/imported,
-/area/ship/crew/hydroponics)
+/obj/machinery/door/poddoor/preopen,
+/turf/open/floor/plasteel/rockvault,
+/area/ship/storage)
 "ZS" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/chair/comfy/beige{
@@ -3592,8 +3649,8 @@ fJ
 fJ
 fJ
 fJ
-fJ
 if
+fJ
 fJ
 fJ
 fJ
@@ -3640,8 +3697,8 @@ fJ
 fJ
 fJ
 fJ
-fJ
 yD
+fJ
 fJ
 fJ
 fJ
@@ -3679,7 +3736,8 @@ hy
 hy
 hX
 EZ
-vP
+EZ
+EZ
 vP
 Co
 Co
@@ -3687,9 +3745,8 @@ Co
 Co
 vP
 vP
-vP
+wH
 SS
-Kq
 SS
 WP
 fJ
@@ -3727,18 +3784,18 @@ lu
 hy
 Xn
 cL
-vP
+PR
+EZ
 fe
 AY
 hE
 hE
 aR
 mn
-ZI
 vP
-VV
+fR
+mQ
 dU
-VV
 zq
 nX
 nX
@@ -3774,19 +3831,19 @@ Ui
 Ui
 hy
 jb
-cL
-vP
+Cq
+PR
+EZ
 Rw
 OE
 zj
 zj
 gU
 OE
-Ob
 vP
 VV
-VV
-VV
+Rl
+UE
 zq
 Pc
 dN
@@ -3823,17 +3880,17 @@ Ui
 hy
 Cp
 EZ
-vP
+EZ
+EZ
 PY
 YQ
 EB
 en
 OE
 Vj
-EB
 vP
-SS
 Kq
+SS
 SS
 zq
 Pc
@@ -4116,7 +4173,7 @@ en
 Vj
 gU
 el
-ka
+ZI
 ka
 ka
 nn
@@ -4219,7 +4276,7 @@ ra
 uR
 uR
 uR
-BG
+rI
 rI
 rI
 rI
@@ -4305,9 +4362,9 @@ Is
 Jv
 HE
 lj
+Ob
 cC
-cC
-cC
+eK
 Yk
 uR
 uR
@@ -4402,7 +4459,7 @@ Jv
 Og
 hY
 ia
-cC
+HZ
 qa
 Yk
 Ca
@@ -4410,7 +4467,7 @@ OV
 OV
 Yk
 We
-eK
+hR
 rI
 jD
 rI
